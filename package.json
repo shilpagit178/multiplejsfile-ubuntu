@@ -1,0 +1,15 @@
+{
+  "name": "myjsproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node src/main.js",
+  "build": "mkdir -p build && cp src/*.js build/",
+  "clean": "rm -rf build",
+  "run": "node build/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

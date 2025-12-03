@@ -1,0 +1,11 @@
+# Ignore build folder
+build/
+
+# Ignore node modules folder (if you install libraries later)
+node_modules/
+
+# OS/editor files
+.DS_Store
+*.swp
+*.swo
+
